@@ -1,25 +1,25 @@
 # To get values from Environment
-ENV = False  # or True
+ENV = Truw  # or True
 
 # Ask for values during each run
-INTERACTIVE_MODE = False  # or True
+INTERACTIVE_MODE = True  # or True
 
 # Required if ENV == False
 Vars = [
   # WARP_ID
-  "",
+  "935067f5-b8b5-46ca-945d-7a6260ac2bbd",
   # SEND_LOG, Want to receive log on Telegram?
   # 1 = Yes or 0 = No
-  "",
+  "1",
   # CHAT_ID, required if SEND_LOG is 1
   # Can be Channel/Group username or ID
-  "",
+  "@YuriPersonalAssistantBot",
   # BOT_TOKEN, required if SEND_LOG is 1
   # Get from https://t.me/BotFather
-  "",
+  "AAEStrMU1sKeOnmvkYrR1qNWBNn5te4JuT8",
   # HIDE_ID, Do you want to hide WARP_ID from log msg?
   # 1 = Yes or 0 = No
-  "",
+  "1",
   # DON'T EDIT THIS
   INTERACTIVE_MODE
 ]
